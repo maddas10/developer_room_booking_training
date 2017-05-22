@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 10393 Book Rooms Conference Rooms" max_length="40" name="u_imp_tmpl_x_10393_book_rooms_conference_rooms" type="collection">
+        <element attributes="import_attribute_name=Can Print,edge_encryption_enabled=true" label="Can Print" max_length="40" name="u_can_print" type="string"/>
+        <element attributes="import_attribute_name=Capacity" label="Capacity" max_length="40" name="u_capacity" type="integer"/>
+        <element attributes="import_attribute_name=Floor" label="Floor" max_length="40" name="u_floor" type="integer"/>
+        <element attributes="import_attribute_name=Location,edge_encryption_enabled=true" label="Location" max_length="32" name="u_location" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="255" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Phone number,edge_encryption_enabled=true" label="Phone number" max_length="40" name="u_phone_number" type="string"/>
+        <element attributes="import_attribute_name=Polycom,edge_encryption_enabled=true" label="Polycom" max_length="40" name="u_polycom" type="string"/>
+        <element attributes="import_attribute_name=Projector,edge_encryption_enabled=true" label="Projector" max_length="40" name="u_projector" type="string"/>
+        <element attributes="import_attribute_name=Wifi,edge_encryption_enabled=true" label="Wifi" max_length="40" name="u_wifi" type="string"/>
+    </element>
+</database>
